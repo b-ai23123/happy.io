@@ -1,15 +1,7 @@
 
 /*
 
-  Shape Shifter
-  =============
-  A canvas experiment by Kenneth Cachia
-  http://www.kennethcachia.com
-
-  Updated code
-  ------------
-  https://github.com/kennethcachia/Shape-Shifter
-
+33
 */
 
 
@@ -41,7 +33,7 @@ var S = {
       if (i !== -1) {
         S.UI.simulate(decodeURI(action).substring(i + 3));
       } else {
-        S.UI.simulate('|#countdown 3||祝|茜茜|生日快乐|祝你|生日快乐|心想事成|幸福快乐|温暖纯良|不舍爱与自由|祝你|生日快乐！|#icon heart|#icon heart-empty|#icon heart');
+        S.UI.simulate('|#countdown 3||祝|茜茜|生日快乐|祝你|心想事成|幸福快乐|温暖纯良|不舍爱与自由|祝你|生日快乐！|#icon heart|#icon heart-empty|#icon heart');
       }
 
       S.Drawing.loop(function () {
